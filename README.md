@@ -13,7 +13,7 @@ I care about the unglamorous parts: money maths that never loses a paisa, UIs th
 | **[TaskBoard](https://github.com/ramneek3/taskboard)** | Task manager taken end-to-end through DevOps: containers, CI with image scanning, IaC, GitOps and monitoring | FastAPI · React · PostgreSQL · Terraform (EKS) · Helm · Argo CD · Prometheus | — |
 | **[MLForge](https://github.com/ramneek3/MLforge)** | MLOps platform for churn prediction: experiment tracking, model registry with promotion gates, serving API, drift monitoring | Python · FastAPI · MLflow · XGBoost · Evidently · Docker | [Live](https://mlforge-omega.vercel.app) |
 | **[AgentForge](https://github.com/ramneek3/Agent-forge)** | Platform for building and running AI agents: versioning, RAG, tool calling/MCP, guardrails, traces, token-cost tracking, evals | Python · FastAPI · LangGraph · PostgreSQL · OpenRouter | [Live](https://agentforge-ebon.vercel.app) (≈50s cold start) |
-| **[RideShare API](https://github.com/ramneek3/rideshare)** | Ride-booking backend with stateless JWT auth, role-based access and central error handling | Java 21 · Spring Boot · Spring Security · MongoDB | — |
+| **[RideShare API](https://github.com/ramneek3/rideshare)** | Ride-booking REST API (request → accept → complete) with stateless JWT auth and role/ownership checks; integration-tested against a real MongoDB with Testcontainers, interactive docs in Swagger UI | Java 17 · Spring Boot · Spring Security · MongoDB Atlas · Docker | [Live](https://rideshare-api-f72m.onrender.com) (≈50s cold start) |
 
 ## 🛠️ Tech I use
 
